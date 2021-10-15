@@ -1,0 +1,76 @@
+.main {
+  padding: 20px;
+}
+.main .btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main .save-btn,
+.main .cancle-btn {
+  padding: 5px 15px;
+  color: #fff;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.main .input-box {
+  margin-bottom: 20px;
+}
+
+.main .input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.main .input-box input {
+  height: 30px;
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.main .input-box textarea {
+  height: 300px;
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.main .upload-btn {
+  padding: 10px 20px;
+  color: #fff;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.filebox {
+  display: flex;
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.filebox .file-name {
+  margin-left: 20px;
+  height: 50px;
+  border: 0;
+  font-size: 20px;
+  width: 100%;
+}

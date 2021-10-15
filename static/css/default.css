@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+.profile-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
 /* header section start */
 header {
   background: blue;
@@ -46,6 +51,45 @@ header .menu-bar {
 }
 /* header section end */
 
+/* post styling start*/
+.main .posts .post {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.main .posts .post-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .posts .post .post-top .title {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+}
+
+.main .posts .post .post-top .profile {
+  display: flex;
+  align-items: center;
+}
+
+.main .posts .post .post-top .profile .user {
+  margin-left: 20px;
+}
+
+.main .posts .post .post-bottom i {
+  color: blue;
+  margin-right: 5px;
+}
+.main .posts .post .post-bottom span {
+  margin-right: 15px;
+}
+
+/* post styling end */
+
 @media (max-width: 360px) {
   header.active {
     position: fixed;
@@ -76,6 +120,12 @@ header .menu-bar {
   }
 
   header .menu-bar {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .main .posts .post-top {
     display: block;
   }
 }

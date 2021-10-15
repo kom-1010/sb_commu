@@ -1,0 +1,122 @@
+.main {
+  padding: 20px;
+}
+
+.main .create-post-btn {
+  text-align: center;
+  display: block;
+  width: 130px;
+  padding: 10px;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.main .create-post-btn:hover {
+  background: transparent;
+  color: blue;
+}
+.main .create-post-btn i {
+  margin-right: 7px;
+}
+
+.more {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.more:hover {
+  color: blue;
+  background: transparent;
+}
+
+.main .search {
+  text-align: center;
+}
+
+.main .search .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.main .search-group-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: blue;
+  color: #fff;
+  border: 1px solid blue;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 130px;
+}
+
+.main .search-group-btn i {
+  margin-left: 10px;
+}
+
+.main .search-group {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100px;
+  padding: 3px;
+}
+.main .search-group.active {
+  display: block;
+}
+
+.main .search-group a {
+  display: block;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.main .search-group a:hover {
+  background: lightgray;
+}
+
+.main .search input {
+  height: 46px;
+  width: 50%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.main .search-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: blue;
+  color: #fff;
+  border: 1px solid blue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 550px) {
+  .main {
+    padding: 20px 5px;
+  }
+  .main .search-group-btn {
+    width: 80px;
+    font-size: 13px;
+    padding: 10px 5px;
+  }
+  .main .search input {
+    height: 40px;
+  }
+  .main .search-btn {
+    padding: 7px 10px;
+  }
+}
