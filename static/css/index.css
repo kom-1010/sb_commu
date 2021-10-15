@@ -1,0 +1,76 @@
+.profile-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* main section start */
+.main {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main .recent-post,
+.main .recommend-post {
+  width: 45%;
+}
+.main .text {
+  margin-bottom: 20px;
+}
+
+.main .posts .post {
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.main .posts .post-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .posts .post .post-top .title {
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+}
+
+.main .posts .post .post-top .profile {
+  display: flex;
+  align-items: center;
+}
+
+.main .posts .post .post-top .profile .user {
+  margin-left: 20px;
+}
+
+.main .posts .post .post-bottom i {
+  color: blue;
+  margin-right: 5px;
+}
+.main .posts .post .post-bottom span {
+  margin-right: 15px;
+}
+
+/* main section end */
+
+@media (max-width: 800px) {
+  .main {
+    display: block;
+  }
+
+  .main .recent-post,
+  .main .recommend-post {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .main .posts .post-top {
+    display: block;
+  }
+}
