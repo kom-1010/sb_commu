@@ -7,6 +7,8 @@
 }
 
 .main .save-btn,
+.main .update-btn,
+.main .delete-btn,
 .main .cancle-btn {
   padding: 5px 15px;
   color: #fff;
@@ -16,6 +18,11 @@
   font-size: 20px;
   margin-bottom: 10px;
   margin-right: 10px;
+}
+
+.main .delete-btn {
+  background: crimson;
+  border: 2px solid crimson;
 }
 
 .main .input-box {
