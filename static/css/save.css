@@ -6,10 +6,7 @@
   justify-content: flex-end;
 }
 
-.main .save-btn,
-.main .update-btn,
-.main .delete-btn,
-.main .cancle-btn {
+.main .btns a {
   padding: 5px 15px;
   color: #fff;
   background: blue;
@@ -18,11 +15,22 @@
   font-size: 20px;
   margin-bottom: 10px;
   margin-right: 10px;
+  transition: all 0.3s ease;
 }
 
-.main .delete-btn {
+.main .btns a:hover {
+  background: transparent;
+  color: blue;
+}
+
+.main .btns .delete-btn {
   background: crimson;
   border: 2px solid crimson;
+}
+
+.main .btns .delete-btn:hover {
+  background: transparent;
+  color: crimson;
 }
 
 .main .input-box {
@@ -59,6 +67,12 @@
   border-radius: 5px;
   font-size: 24px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main .upload-btn:hover {
+  background: transparent;
+  color: blue;
 }
 
 .filebox {
