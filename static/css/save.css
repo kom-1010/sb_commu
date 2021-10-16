@@ -1,27 +1,6 @@
 .main {
   padding: 20px;
 }
-.main .btns {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.main .btns a {
-  padding: 5px 15px;
-  color: #fff;
-  background: blue;
-  border: 2px solid blue;
-  border-radius: 5px;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  transition: all 0.3s ease;
-}
-
-.main .btns a:hover {
-  background: transparent;
-  color: blue;
-}
 
 .main .btns .delete-btn {
   background: crimson;

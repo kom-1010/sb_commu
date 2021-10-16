@@ -1,0 +1,55 @@
+.post-header {
+  padding: 20px;
+}
+
+.post-header .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.post-header .title h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.post-header .sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header .sub-title .profile {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.post-header .sub-title .profile span {
+  margin-left: 10px;
+}
+
+.post-header .sub-title .post-info {
+  display: flex;
+  align-items: center;
+}
+
+.post-header .sub-title .icons {
+  margin-right: 20px;
+}
+
+.post-header .sub-title .icons i {
+  margin-right: 5px;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-footer {
+  padding: 20px;
+}
+
+.post-footer .btns {
+  justify-content: center;
+}

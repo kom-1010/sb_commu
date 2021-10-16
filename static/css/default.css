@@ -13,6 +13,29 @@
   width: 40px;
   height: 40px;
 }
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btns a {
+  padding: 5px 15px;
+  color: #fff;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.btns a:hover {
+  background: transparent;
+  color: blue;
+}
+
 /* header section start */
 header {
   background: blue;
