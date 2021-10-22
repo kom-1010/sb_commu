@@ -19,12 +19,6 @@
   align-items: center;
 }
 
-.post-header .sub-title .profile {
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-}
-
 .post-header .sub-title .profile span {
   margin-left: 10px;
 }
@@ -52,4 +46,10 @@
 
 .post-footer .btns {
   justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .post-header .title {
+    display: block;
+  }
 }

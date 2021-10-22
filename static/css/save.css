@@ -41,8 +41,8 @@
 .main .upload-btn {
   padding: 10px 20px;
   color: #fff;
-  background: blue;
-  border: 2px solid blue;
+  background: var(--main-color);
+  border: 2px solid var(--main-color);
   border-radius: 5px;
   font-size: 24px;
   cursor: pointer;
@@ -51,7 +51,7 @@
 
 .main .upload-btn:hover {
   background: transparent;
-  color: blue;
+  color: var(--main-color);
 }
 
 .filebox {

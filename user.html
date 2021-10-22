@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turtle</title>
+    <title>SB Commu</title>
     <link rel="stylesheet" href="/static/css/default.css">
-    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/user.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
     <!-- header section start -->
     <header class="header">
-        <h1>Turtle</h1>
+        <h1>SB Commu</h1>
         <nav id="nav-links">
             <ul>
             <li><a href="#">게시판</a></li>
@@ -50,77 +50,43 @@
 
     <!-- main section start -->
     <section class="main">
-        <div class="recent-post">
-            <h3 class="text">최근 글</h3>
-            <div class="posts">
-    
-                <div class="post">
-                    <div class="post-top">
-                        <h4><a href="#" class="title">안녕하세요!</a></h4>
-                        <div class="profile">
-                            <img src="/static/image/profile-1.jpg" alt="" class="profile-image">
-                            <h5 class="user">사용자</h5>
-                        </div>    
-                    </div>
-                    <div class="post-bottom">
-                            <i class="fas fa-heart"></i><span>3</span>
-                            <i class="fas fa-comment-dots"></i><span>5</span>
-                            <span class="date">2021-10-15 / 12:15</span>
-                    </div>
-                </div>
-    
-                <div class="post">
-                    <div class="post-top">
-                        <h4><a href="#" class="title">안녕하세요!</a></h4>
-                        <div class="profile">
-                            <img src="/static/image/profile-1.jpg" alt="" class="profile-image">
-                            <h5 class="user">사용자</h5>
-                        </div>    
-                    </div>
-                    <div class="post-bottom">
-                            <i class="fas fa-heart"></i><span>3</span>
-                            <i class="fas fa-comment-dots"></i><span>5</span>
-                            <span class="date">2021-10-15 / 12:15</span>
-                    </div>
-                </div>
-                <div class="post">
-                    <div class="post-top">
-                        <h4><a href="#" class="title">안녕하세요!</a></h4>
-                        <div class="profile">
-                            <img src="/static/image/profile-1.jpg" alt="" class="profile-image">
-                            <h5 class="user">사용자</h5>
-                        </div>    
-                    </div>
-                    <div class="post-bottom">
-                            <i class="fas fa-heart"></i><span>3</span>
-                            <i class="fas fa-comment-dots"></i><span>5</span>
-                            <span class="date">2021-10-15 / 12:15</span>
-                    </div>
-                </div>
-    
+        <div class="profile-area">
+            
+            <div class="profile">
+                <img src="/static/image/profile-1.jpg" alt="" class="profile-image big">
+                <span class="user">사용자</span>
+            </div> 
+            <div class="btns">
+                <button class="profile-update-btn btn">프로필 수정</button>
             </div>
-    
         </div>
-        
-        <div class="recommend-post">
-        <h3 class="text">추천 글</h3>
+
+    <div class="modal">
+        <div class="modal-content">
+            <h2>프로필 수정</h2>
+            <form action="">
+                <div class="input-image-box">
+                    <img src="/static/image/profile-1.jpg" alt="" class="profile-image big">
+                    <label for="file" class="btn">사진변경</label> 
+                    <input type="file" id="file">    
+                </div>
+                <div class="input-box">
+                    <label for="">닉네임</label>
+                    <input type="text" placeholder="사용자">
+                </div>
+            </form>
+    
+            <div class="btns">
+                <a href="#" class="btn">저장</a>
+                <a href="#" class="cancle-btn btn">취소</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="posts-area">
+        <h3 class="text">내가 쓴 글</h3>
+
         <div class="posts">
-
-            <div class="post">
-                <div class="post-top">
-                    <h4><a href="#" class="title">안녕하세요!</a></h4>
-                    <div class="profile">
-                        <img src="/static/image/profile-1.jpg" alt="" class="profile-image">
-                        <h5 class="user">사용자</h5>
-                    </div>    
-                </div>
-                <div class="post-bottom">
-                        <i class="fas fa-heart"></i><span>3</span>
-                        <i class="fas fa-comment-dots"></i><span>5</span>
-                        <span class="date">2021-10-15 / 12:15</span>
-                </div>
-            </div>
-
             <div class="post">
                 <div class="post-top">
                     <h4><a href="#" class="title">안녕하세요!</a></h4>
@@ -149,11 +115,26 @@
                         <span class="date">2021-10-15 / 12:15</span>
                 </div>
             </div>
-
+            <div class="post">
+                <div class="post-top">
+                    <h4><a href="#" class="title">안녕하세요!</a></h4>
+                    <div class="profile">
+                        <img src="/static/image/profile-1.jpg" alt="" class="profile-image">
+                        <h5 class="user">사용자</h5>
+                    </div>    
+                </div>
+                <div class="post-bottom">
+                        <i class="fas fa-heart"></i><span>3</span>
+                        <i class="fas fa-comment-dots"></i><span>5</span>
+                        <span class="date">2021-10-15 / 12:15</span>
+                </div>
+            </div>
         </div>
-        </div>
+    </div>
+       
     </section>
     <!-- main section end -->
     <script src="/static/js/app.js"></script>
+    <script src="/static/js/user.js"></script>
 </body>
 </html>

@@ -14,6 +14,23 @@
   margin-bottom: 20px;
 }
 
+.login-links {
+  position: absolute;
+  top: 15%;
+  left: 27%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.login-links .login-link {
+  padding: 5px 20px;
+}
+
+.login-links .login-link:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 /* main section end */
 
 @media (max-width: 800px) {

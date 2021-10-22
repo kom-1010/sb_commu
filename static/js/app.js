@@ -1,8 +1,20 @@
 const menuBar = document.querySelector(".menu-bar");
 const header = document.querySelector(".header");
-const links = document.querySelector(".links");
+const navLinks = document.getElementById("nav-links");
+const account = document.querySelector(".account");
+const accountMenu = document.querySelector(".account-menu");
+const login = document.querySelector(".login");
+const loginMenu = document.querySelector(".login-menu");
 
 menuBar.addEventListener("click", () => {
-  links.classList.toggle("active");
+  navLinks.classList.toggle("active");
   header.classList.toggle("active");
+});
+
+account.addEventListener("click", () => {
+  accountMenu.classList.toggle("active");
+});
+
+login.addEventListener("click", () => {
+  loginMenu.classList.toggle("active");
 });

@@ -13,12 +13,37 @@
     <!-- header section start -->
     <header class="header">
         <h1>SB Commu</h1>
-        <nav class="links">
-            <a href="#">갤러리</a>
-            <a href="#">프로필</a>
-            <a href="#">관리</a>
-        </nav>
+        <nav id="nav-links">
+            <ul>
+            <li><a href="#">게시판</a></li>
 
+            <!-- 로그인시 보이는 메뉴 start -->
+            <li>
+                <a href="#" class="account">계정관리</a>
+                <ul class="account-menu">
+                    <li><a href="#">프로필</a></li>
+                    <li><a href="#">로그아웃</a></li>
+                </ul>
+            </li>
+            <!-- 로그인시 보이는 메뉴 end -->
+
+            <!-- 관리자 계정에만 보이는 메뉴 start -->
+            <li><a href="#">관리자</a></li>
+            <!-- 관리자 계정에만 보이는 메뉴 end -->
+        
+            <!-- 비로그인시 보이는 메뉴 start -->
+            <li>
+                <a href="#" class="login">로그인</a>
+                <ul class="login-menu">
+                    <li><a href="#">google</a></li>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">kakao</a></li>
+                    <li><a href="#">naver</a></li>
+                </ul>
+            </li>
+            <!-- 비로그인시 보이는 메뉴 end -->
+            </ul>
+        </nav>
         <i class="fas fa-bars menu-bar"></i>
     </header>
     <!-- header section end -->
@@ -29,8 +54,8 @@
             <div class="title">
                 <h1>안녕하세요!</h1>
                 <div class="btns">
-                    <a href="#" class="update-btn">수정</a>
-                    <a href="#" class="return">돌아가기</a>
+                    <a href="#" class="update-btn btn">수정</a>
+                    <a href="#" class="return btn">돌아가기</a>
                 </div>
             </div>
             <div class="sub-title">
@@ -61,7 +86,7 @@
 
         <div class="post-footer">
             <div class="btns">
-                <a href="#" class="like">좋아요</a>
+                <a href="#" class="like btn">좋아요</a>
             </div>
         </div>
     </section>
